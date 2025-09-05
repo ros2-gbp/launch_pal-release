@@ -41,6 +41,7 @@ class CommonArgs:
             "pmb3",
             "ari",
             "omni_base",
+            "stockbot",
             "tiago_pro",
             "talos",
             "kangaroo",
@@ -79,6 +80,10 @@ class CommonArgs:
         name='world_name',
         default_value='pal_office',
         description="Specify world name, will be converted to full path.")
+    map_name: DeclareLaunchArgument = DeclareLaunchArgument(
+        name='map_name',
+        default_value='default_map',
+        description="Specify map name, will be converted to full path.")
     is_public_sim: DeclareLaunchArgument = DeclareLaunchArgument(
         name='is_public_sim',
         default_value='False',
@@ -118,3 +123,13 @@ class CommonArgs:
         name="yaw",
         description="Yaw pose of the robot",
         default_value="0.0")
+    sim_type: DeclareLaunchArgument = DeclareLaunchArgument(
+        name="sim_type",
+        default_value="gazebo",
+        choices=["mujoco-ros2-control", "mujoco", "gazebo", "no-simulation"],
+        description="Simulation type")
+    mj_control: DeclareLaunchArgument = DeclareLaunchArgument(
+        name="mj_control",
+        default_value="position",
+        choices=["false", "position", "motor"],
+        description='Mujoco control')
