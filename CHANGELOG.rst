@@ -2,6 +2,22 @@
 Changelog for package launch_pal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.17.0 (2025-09-04)
+-------------------
+* final mujoco launch arguments
+* added mujoco arguments
+* Contributors: Ortisa Poci
+
+0.16.0 (2025-08-26)
+-------------------
+* added map name
+* Contributors: martinaannicelli
+
+0.15.0 (2025-08-22)
+-------------------
+* added stockbot to list of robots name
+* Contributors: martinaannicelli
+
 0.14.1 (2025-06-16)
 -------------------
 * Fix end-effector ari
