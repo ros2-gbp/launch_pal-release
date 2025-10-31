@@ -2,6 +2,16 @@
 Changelog for package launch_pal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.19.0 (2025-10-21)
+-------------------
+* Remove ros__parameters from master calibration
+* Contributors: David ter Kuile
+
+0.18.0 (2025-10-08)
+-------------------
+* added args in common for rviz and gzclient
+* Contributors: martinaannicelli
+
 0.17.0 (2025-09-04)
 -------------------
 * final mujoco launch arguments
