@@ -1,0 +1,12 @@
+Source: ros-rolling-launch-pal
+Section: misc
+Priority: optional
+Maintainer: Jordan Palacios <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-jinja2, python3-pytest <!nocheck>, python3-yaml, ros-rolling-ament-copyright <!nocheck>, ros-rolling-ament-flake8 <!nocheck>, ros-rolling-ament-index-python, ros-rolling-ament-pep257 <!nocheck>, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://github.com/pal-robotics/launch_pal
+Standards-Version: 3.9.2
+
+Package: ros-rolling-launch-pal
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-jinja2, python3-yaml, ros-rolling-ament-index-python, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-ros-workspace
+Description: Utilities for launch files
