@@ -1,3 +1,26 @@
+## launch_pal (rolling) - 0.20.3-1
+
+The packages in the `launch_pal` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling launch_pal` on `Fri, 06 Mar 2026 12:45:15 -0000`
+
+The `launch_pal` package was released.
+
+Version of package(s) in repository `launch_pal`:
+
+- upstream repository: https://github.com/pal-robotics/launch_pal.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.20.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## launch_pal (jazzy) - 0.20.2-1
 
 The packages in the `launch_pal` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --track jazzy --rosdistro jazzy launch_pal` on `Thu, 05 Mar 2026 14:39:18 -0000`
