@@ -2,6 +2,11 @@
 Changelog for package launch_pal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.20.3 (2026-03-06)
+-------------------
+* fix: only shutdown rclpy if initialized locally
+* Contributors: Noel Jimenez
+
 0.20.2 (2026-03-03)
 -------------------
 * Throw when trying to merge a yaml file that does not contain a dict
