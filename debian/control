@@ -1,0 +1,12 @@
+Source: ros-lyrical-launch-pal
+Section: misc
+Priority: optional
+Maintainer: Jordan Palacios <jordan.palacios@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-jinja2, python3-pytest <!nocheck>, python3-yaml, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-index-python, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://github.com/pal-robotics/launch_pal
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-launch-pal
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-jinja2, python3-yaml, ros-lyrical-ament-index-python, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-ros-workspace
+Description: Utilities for launch files
