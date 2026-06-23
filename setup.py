@@ -8,7 +8,7 @@ package_name = 'launch_pal'
 
 setup(
     name=package_name,
-    version='0.20.1',
+    version='0.21.1',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -23,7 +23,9 @@ setup(
                       'noel.jimenez@pal-robotics.com'],
     description='Launch utilities needed by PAL Robotics software',
     license='Apache License, Version 2.0',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest'],
+    },
     entry_points={
         'console_scripts': [
         ],
