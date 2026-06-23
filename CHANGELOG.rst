@@ -2,6 +2,28 @@
 Changelog for package launch_pal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.21.1 (2026-05-26)
+-------------------
+* Update documentation for generate_component_list function
+* Add optional namespace parameter
+* Use extras_require instead of test_require
+* Contributors: Isaac Acevedo, Noel Jimenez
+
+0.21.0 (2026-04-07)
+-------------------
+* added mujoco initial pose argument
+* Contributors: Ortisa Poci
+
+0.20.3 (2026-03-06)
+-------------------
+* fix: only shutdown rclpy if initialized locally
+* Contributors: Noel Jimenez
+
+0.20.2 (2026-03-03)
+-------------------
+* Throw when trying to merge a yaml file that does not contain a dict
+* Contributors: Noel Jimenez
+
 0.20.1 (2026-01-14)
 -------------------
 * Fix linters for jazzy
