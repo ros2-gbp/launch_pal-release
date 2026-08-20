@@ -1,3 +1,26 @@
+## launch_pal (lyrical) - 0.22.1-1
+
+The packages in the `launch_pal` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --track lyrical --rosdistro lyrical -y launch_pal` on `Thu, 20 Aug 2026 20:20:42 -0000`
+
+The `launch_pal` package was released.
+
+Version of package(s) in repository `launch_pal`:
+
+- upstream repository: https://github.com/pal-robotics/launch_pal.git
+- release repository: https://github.com/ros2-gbp/launch_pal-release.git
+- rosdistro version: `0.20.3-3`
+- old version: `0.20.3-3`
+- new version: `0.22.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## launch_pal (humble) - 0.22.1-1
 
 The packages in the `launch_pal` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y launch_pal` on `Thu, 20 Aug 2026 14:32:23 -0000`
