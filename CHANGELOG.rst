@@ -2,6 +2,13 @@
 Changelog for package launch_pal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.22.1 (2026-08-20)
+-------------------
+* Add test to verify the behaviour
+* Fix arg_utils to parse launch arguments in lyrical
+* change default mj_initial_pose to home
+* Contributors: Ortisa Poci, Sai Kishor Kothakota
+
 0.22.0 (2026-08-04)
 -------------------
 * Support optional default value for robot_info parameters
